@@ -1,0 +1,41 @@
+6/5/2025
+Behind on everything.
+
+
+Need to do: create functional system of import/ models/ create at first, just import the name of the brand and all fabric types & display these
+
+App should contain index and search (and save / compare later)
+
+Do i want some pre-loaded data or will it scrape everything live?
+
+For version 1:
+- 3 preloaded brands
+- limited fabric types
+- in import.py: scrape seperately to csv, make csv, make import (future: dynamically scrape)
+
+Nodig in app: een soort sessie beginnen ofzo?
+
+
+Leerpuntje:
+- Selenium gebruiken en niet beautiful soup want paths zijn nodig 
+
+
+8/5/2024
+
+Doel voor vandaag:
+- Eerste versie af met echt minimale ingrepen nog nodig
+- Opdracht voor morgen klaar hebben
+- en dan morgen alleen finetunen
+
+
+Dus:
+- Scraper uitzoeken: eerste versie met minimaal resultaat, 1 brand en als er meer kunnen dan fantastisch
+- Basic log uitzoeken: zorg ervoor dat de database alles goed opslaat en kijk hoe het ook alweer werkte
+- Basis analyse, laat resultaten goed zien
+- homepage en search / results page
+
+
+Latere weken:
+- filters toevoegen
+- Opslaan / vergelijking toevoegen
+- Styling aanpassen voor mac / iphone
