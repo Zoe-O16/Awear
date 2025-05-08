@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <h2>Welcome to Awear!
+    </h2>
+    <form action="/search" method="post">
+        <input name="query" placeholder="Search by title, author, or ISBN" required>
+        <button type="submit">Search</button>
+    </form>
+{% endblock %}

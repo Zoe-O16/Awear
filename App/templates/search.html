@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block content %}
+  <h2>Check Fashion Brand's Sustainability Scores</h2>
+  <form action="/search" method="post">
+    <label for="brand">Select a brand:</label>
+    <select name="brand" id="brand" required>
+      {% for brand in brands %}
+        <option value="{{ brand }}">{{ brand }}</option>
+      {% endfor %}
+    </select>
+    <button type="submit">Check</button>
+  </form>
+
+  {% if score is not none %}
+    <h3>Sustainability Score for "{{ selected_brand }}"</h3>
+    <p>{{ score }} / 100</p>
+  {% else %}
+    <h3>Please select a brand</h3>
+{% endblock %}
