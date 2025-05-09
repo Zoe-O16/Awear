@@ -39,3 +39,36 @@ Latere weken:
 - filters toevoegen
 - Opslaan / vergelijking toevoegen
 - Styling aanpassen voor mac / iphone
+
+
+9/05/2025
+
+hoe omgaan met fabric colums?
+scraper fixen
+database fixen
+
+
+9/5/2025
+Voorbereiding versie 1:
+Wat was het lastigste om uit te vinden of te maken?
+Het lastigste om te maken is de scraping tool. Het heeft tijd gekost om uit te zoeken welke scraping tool het beste is (Selenium), hoe deze werkt, en hoe ik het goed geïnstalleerd krijg op mijn laptop, maar dit verliep nog soepel. 
+Het lastigste (dit was wel naar verwachting) is dat commerciele sites als zalando niet echt scraping friendly zijn, en dat ik goed uit moet zoeken hoe ik pop ups wegklik zodat mijn bot bij de juiste data kan.
+Hierdoor zat ik echt met loose stukjes code half overgenomen van tutorials en toegepast op de site maar werkte er nog niks. Dit heb ik donderdagavond gestructureerd, maar toen liep ik tegen de pop-ups op Zalando aan.
+
+Waar en waarom ben je afgeweken van het oorspronkelijke ontwerp?
+
+Ik ben afgweken van het idee om een individueel item te checken, omdat ik uiteindelijk denk dat een heel merk kunnen checken meer impact heeft. Wat betreft de analse, merk ik dat met de hoeveelheid tijd die het kost, het wel het beste is om het zo klein mogelijk te houden, dus om echt alleen materiaal te gebruiken.
+Voor nu is mijn score ook niet zo genuanceerd, het geeft alleen een slechte score als er polyester is. Ook heb ik tot nu toe maar 1 webpagina gescraped, en dus maar 1 merk als mogelijkheid
+
+Wat is er nog onzeker aan het project en hoe ga je dit uitzoeken?
+
+Ik weet op zich wat er uitgebreid moet worden qua functies die ik al wel heb, maar ik weet nog niet hoe ik bijvoorbeeld ervoor kan zorgen dat mensen brands kunnen vergelijken en hoe ik ervoor kan zorgen dat 
+
+
+Wat is het eerstvolgende waar je aan gaat werken en waarom?
+
+Het eerstvolgende is het corrigeren van de scraping tool, ik wil dat het van merkpagina naar merk kan gaan en per merk wel aan de hand van meerdere items dingen in de database kan zetten.
+
+Ontbreekt er nog iets fundamenteels, bijvoorbeeld omdat het lastiger was dan verwacht, of dat een alternatief toch handiger is? Beschrijf dan kort wat er aan de hand is.
+
+Ja! Die scraping tool is echt heel lastig om te bouwen en is zeker nog niet waar ik hem wil hebben. 
