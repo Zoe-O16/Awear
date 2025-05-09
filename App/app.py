@@ -35,21 +35,38 @@ def index():
 @app.route("/search", methods=["GET", "POST"])
 def search():
     """
-    change this into a drop down menu function
-    with results of pre-loaded brands
+    drop down menu function with results of pre-loaded brands
     """
 
     print("Search route hit")
     if request.method == "POST":
-        query = request.form.get("query")
-        print("user searched", query)
-        # case-insensitive partial match on isbn, title, or author
-        results = Book.query.filter(
-            or_(
-                Book.isbn.ilike(f"%{query}%"),
-                Book.title.ilike(f"%{query}%"),
-                Book.author.ilike(f"%{query}%")
-            )
-        ).all()
-        return render_template("search.html", books=results, query=query)
-    return render_template("search.html", books=None)
+        brand = request.form.get("brand")
+        score = get_score(brand)
+        # Changed to match HTML code (adjusted from books)
+        return render_template("search.html", selected_brand=brand, score=score, brands=get_brand_info())
+    #Changed to match HTML
+    return render_template("search.html", score=None)
+    #insert way of handling a non-input, maybe with a gentle instruction
+
+
+def get_brand_info():
+    """
+    gets brand info from scraper
+    """
+
+def get_score(brand):
+    """
+    Should query database and calculate it 
+    """
+    scores = {
+        "Mango": 35,
+        "Patagonia": 90,
+        "Levi's": 70,
+    }
+    #Score op basis van 
+    #   hoeveelheid natuurlijke vs. onnatuurlijke materialen (eigenlijk moeten hier percenategs bij in de scraper dan)
+    #   de hoeveelheid materialen per item gemiddeld, 
+    #   alle materialen in het algemeen met een waarde per merk
+    #   zoek online naar score voor bepaalde materialen
+    #dit moet dan geanalyseerd worden op basis van hoeveelheid items die gechecked zijn
+
