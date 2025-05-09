@@ -14,7 +14,7 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 db.init_app(app)
 
 #hier moet ik mn scraping tool gaan gebruiken
-#dus scrapen, csv maken,
+#dus scrapen, csv maken
 
 def main():
     with open("books.csv", mode="r", encoding="utf-8") as f:

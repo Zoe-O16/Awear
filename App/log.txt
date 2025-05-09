@@ -71,4 +71,4 @@ Het eerstvolgende is het corrigeren van de scraping tool, ik wil dat het van mer
 
 Ontbreekt er nog iets fundamenteels, bijvoorbeeld omdat het lastiger was dan verwacht, of dat een alternatief toch handiger is? Beschrijf dan kort wat er aan de hand is.
 
-Ja! Die scraping tool is echt heel lastig om te bouwen en is zeker nog niet waar ik hem wil hebben. 
+Ja! Die scraping tool is echt heel lastig om te bouwen en is zeker nog niet waar ik hem wil hebben.

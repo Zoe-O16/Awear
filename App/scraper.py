@@ -143,7 +143,5 @@ if __name__ == "__main__":
     website = 'https://www.zalando.nl/mango-broek-brown-m9121a3ov-o11.html' #make this dynamic later, maybe input the brand they're trying to search here
     find_materials(driver, website)  # Open the website
 
-
-
 #notes
 #     Possible path: //div[@data-testid="pdp-accordion-material_care"]//dl'
